@@ -1,0 +1,9 @@
+#!/usr/bin/env python3
+def fibonacci_sequence(n):
+    fibonacci_list = []
+    fibonacci_list.append(0)
+    fibonacci_list.append(1)
+    for i in range (2, n):
+        next_number = fibonacci_list[-1] + fibonacci_list[-2]
+        fibonacci_list.append(next_number)
+    return fibonacci_list
