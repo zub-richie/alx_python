@@ -8,7 +8,7 @@ if __name__ == "__main__":
     if len(inputArgs) > 1:
         print(len(inputArgs) - 1, "arguments:")
     else:
-        print (len(inputArgs) - 1, "arguments.")
+        print (len(inputArgs) - 1, "argument.")
     for i, inputArgs in enumerate(inputArgs[1:], 1):
         # print(f"{i}: {arg}")
         print("{}: " "{}".format(i, inputArgs))
