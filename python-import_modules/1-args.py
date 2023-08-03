@@ -7,7 +7,8 @@ if __name__ == "__main__":
     print (len(inputArgs) - 1, "arguments:")
 
     for i, arg in enumerate(inputArgs[1:], 1):
-        print(f"{i}: {arg}")
+        # print(f"{i}: {arg}")
+        print("{}: " "{}".format(i, arg))
 
 # for i in inputArgs[2:]:
 #     print(i)
