@@ -1,12 +1,13 @@
 #!/usr/bin/python3
-import sys
+if __name__ == "__main__":
+    import sys
 
-inputArgs = sys.argv
+    inputArgs = sys.argv
 
-print (len(inputArgs) - 1, "arguments:")
+    print (len(inputArgs) - 1, "arguments:")
 
-for i, arg in enumerate(inputArgs[1:], 1):
-    print(f"{i}: {arg}")
+    for i, arg in enumerate(inputArgs[1:], 1):
+        print(f"{i}: {arg}")
 
 # for i in inputArgs[2:]:
 #     print(i)
