@@ -3,7 +3,12 @@ import sys
 
 inputArgs = sys.argv
 
-for i in inputArgs[1:]:
-    (i)
-print (len(sys.argv), "arguments:")
-print("{}:" "{}".format(i, inputArgs))
+print (len(inputArgs) - 1, "arguments:")
+
+for i, arg in enumerate(inputArgs[1:], 1):
+    print(f"{i}: {arg}")
+
+# for i in inputArgs[2:]:
+#     print(i)
+
+# print("{}:" "{}".format(i, inputArgs))
