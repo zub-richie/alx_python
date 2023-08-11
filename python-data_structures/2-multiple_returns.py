@@ -8,7 +8,7 @@ def multiple_returns(sentence):
         first = sentence[0]
     return length, first
 
-sentence = ''
+sentence = ()
 length, first = multiple_returns(sentence)
 print("Length: {:d} - First character: {}".format(length, first))
 
