@@ -5,7 +5,7 @@
 
 - 🔭 I’m currently working on my **ALX intro to SE course**
 
-- 🌱 I’m currently learning **Python - Data Structures: Lists, Tuples**
+- 🌱 I’m currently learning **Python - Data Structures: Set, Dictionary**
 <h2 align="left">Project Objectives</h2>
 <p align="left">At the end of this project, you are expected to be able to explain to anyone, without the help of Google:
 <h3>General</h3>
