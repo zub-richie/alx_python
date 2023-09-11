@@ -10,5 +10,4 @@ class Square:
 
 # Create a square with size 3
 my_square = Square(3)
-print(type(my_square))
-print(my_square.__dict__)
+my_square.draw()
