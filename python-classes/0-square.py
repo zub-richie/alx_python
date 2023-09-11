@@ -11,4 +11,5 @@ class Square:
 
 # Create a square with size 3
 my_square = Square(3)
-my_square.draw()
+print(type(my_square))
+print(my_square.__dict__)
