@@ -8,6 +8,4 @@ class Square:
         for _ in range(self.__size):
             print("* " * self.__size)
 
-# Create a square with size 3
-my_square = Square(3)
-my_square.draw()
+
