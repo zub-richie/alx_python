@@ -3,5 +3,5 @@
 This module defines if a an instance .
 """
 class BaseGeometry:
-    #This pass
+    """This is a class"""
     pass
