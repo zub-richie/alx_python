@@ -4,4 +4,5 @@ This module defines if a an instance .
 """
 class BaseGeometry:
     """This is a class"""
-    pass
+    def __init__(self):
+        pass
