@@ -4,5 +4,5 @@ This module defines if a an instance .
 """
 class BaseGeometry:
     """This is a class"""
-    def __init__(self):
-        self.attribute = None
+    def some_method(self):
+        raise NotImplementedError("Subclasses must implement this method.")
