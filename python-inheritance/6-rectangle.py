@@ -1,6 +1,6 @@
 #!/usr/bin/python3
 """
-This module defines if a an instance .
+This module defines if a an instance.
 """
     
 class Rectangle(BaseGeometry):
